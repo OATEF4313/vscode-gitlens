@@ -18020,6 +18020,7 @@
 		"@playwright/test": "1.46.1",
 		"@swc/core": "1.7.3",
 		"@twbs/fantasticon": "3.0.0",
+		"@types/markdown-it": "^14.1.2",
 		"@types/mocha": "10.0.7",
 		"@types/node": "18.15.0",
 		"@types/react": "17.0.80",
