@@ -17584,7 +17584,7 @@
 			{
 				"view": "gitlens.views.worktrees",
 				"contents": "Limited-time Sale: Save 33% or more on your 1st seat of Pro.",
-				"when": "gitlens:plus:required && gitlens:plus:state == 4 && (gitlens:promo == pro50 || !gitlens:promo)"
+				"when": "gitlens:plus:required && (gitlens:plus:state == 4 || gitlens:plus:state == 7) && (gitlens:promo == pro50 || !gitlens:promo)"
 			},
 			{
 				"view": "gitlens.views.worktrees",

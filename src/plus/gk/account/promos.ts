@@ -53,6 +53,7 @@ const promos: Promo[] = [
 			SubscriptionState.FreePlusInTrial,
 			SubscriptionState.FreePlusTrialExpired,
 			SubscriptionState.FreePlusTrialReactivationEligible,
+			SubscriptionState.PaidExpired,
 		],
 		commandTooltip: 'Limited-Time Sale: Save 33% or more on your 1st seat of Pro. See your special price',
 	},
