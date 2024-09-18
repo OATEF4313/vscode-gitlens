@@ -376,21 +376,20 @@
     react-dragula "1.1.17"
     react-onclickoutside "6.13.0"
 
-"@gitkraken/provider-apis@0.24.2":
-  version "0.24.2"
-  resolved "https://registry.yarnpkg.com/@gitkraken/provider-apis/-/provider-apis-0.24.2.tgz#217ebf881aacc88f1cc487b3f2ed15d46f2f4212"
-  integrity sha512-Il0QqYbw0mzjda+EhApny2re0cMY7LOYygmGh5ASQ33juT9rinMsZo1Wu3wh93jwSbAMEzS0royOHFfw37vz2w==
+"@gitkraken/provider-apis@0.24.3":
+  version "0.24.3"
+  resolved "https://registry.yarnpkg.com/@gitkraken/provider-apis/-/provider-apis-0.24.3.tgz#ad98d13e9f099a67c08749dc80272d19d8f0a876"
+  integrity sha512-yfXE5ntfmeM30O7gbZKun/ei5RnVMuxIW4fgJ6lQvp5OiOBZh7gS67483aTOt9bZfRg1dCWB4LkHUE+/bH3Pzg==
   dependencies:
     js-base64 "3.7.5"
     node-fetch "2.7.0"
 
-"@gitkraken/shared-web-components@0.1.1-rc.15":
-  version "0.1.1-rc.15"
-  resolved "https://registry.yarnpkg.com/@gitkraken/shared-web-components/-/shared-web-components-0.1.1-rc.15.tgz#efd520083a7f5a32fe342108f447e8c77723cfd2"
-  integrity sha512-BXGWoZoFzWftJC3BgEEPm/cU2qYasoGveGiG8oL8cWydl2TCkRCxddsiDswsMQaZDZIeTYLwbUPwA2PBeAAg4A==
+"@gitkraken/shared-web-components@0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@gitkraken/shared-web-components/-/shared-web-components-0.1.9.tgz#6b524054bf20940e960de3429d1d331c4c20d835"
+  integrity sha512-fBvL9P2x+8pLb5Lc2qzpt4WEHtSKsv4xcU8yXpG4zW6mRYDaang1/dDMoLOw22r4ne+0nT0dr3m0/op2884XcA==
   dependencies:
     "@floating-ui/dom" "^1.4.2"
-    typescript "^4.9.5"
 
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
@@ -637,17 +636,7 @@
   dependencies:
     "@octokit/types" "^13.0.0"
 
-"@octokit/request@9.1.1":
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-9.1.1.tgz#e836eb69c0fb4b59b6437af7716ca348a1232a52"
-  integrity sha512-pyAguc0p+f+GbQho0uNetNQMmLG1e80WjkIaqqgUkihqUp0boRU6nKItXO4VWnr+nbZiLGEyy4TeKRwqaLvYgw==
-  dependencies:
-    "@octokit/endpoint" "^10.0.0"
-    "@octokit/request-error" "^6.0.1"
-    "@octokit/types" "^13.1.0"
-    universal-user-agent "^7.0.2"
-
-"@octokit/request@^9.0.0":
+"@octokit/request@9.1.3", "@octokit/request@^9.0.0":
   version "9.1.3"
   resolved "https://registry.yarnpkg.com/@octokit/request/-/request-9.1.3.tgz#42b693bc06238f43af3c037ebfd35621c6457838"
   integrity sha512-V+TFhu5fdF3K58rs1pGUJIDH5RZLbZm5BI+MNF+6o/ssFNT4vWlCh/tVpF3NxGtP15HUxTTMUbsG5llAuU2CZA==
@@ -6226,6 +6215,16 @@ react-bootstrap@0.32.4:
     uncontrollable "^5.0.0"
     warning "^3.0.0"
 
+react-dom@16.14.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
 react-dom@16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
@@ -6287,6 +6286,15 @@ react-transition-group@^2.0.0, react-transition-group@^2.2.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
+
+react@16.14.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 react@16.8.4:
   version "16.8.4"
@@ -6575,6 +6583,14 @@ scheduler@^0.13.4:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
 schema-utils@2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.0.tgz#17151f76d8eae67fbbf77960c33c676ad9f4efc7"
@@ -6792,10 +6808,10 @@ socks@^2.6.2:
     ip-address "^9.0.5"
     smart-buffer "^4.2.0"
 
-sortablejs@1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.0.tgz#53230b8aa3502bb77a29e2005808ffdb4a5f7e2a"
-  integrity sha512-bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==
+sortablejs@1.15.2:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.2.tgz#4e9f7bda4718bd1838add9f1866ec77169149809"
+  integrity sha512-FJF5jgdfvoKn1MAKSdGs33bIqLi3LmsgVTliuX6iITj834F+JRQZN90Z93yql8h0K2t0RwDPBmxwlbZfDcxNZA==
 
 source-list-map@^2.0.0:
   version "2.0.1"
@@ -7370,11 +7386,6 @@ typescript@5.6.2:
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.2.tgz#d1de67b6bef77c41823f822df8f0b3bcff60a5a0"
   integrity sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==
-
-typescript@^4.9.5:
-  version "4.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
-  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 uc.micro@^2.0.0, uc.micro@^2.1.0:
   version "2.1.0"
